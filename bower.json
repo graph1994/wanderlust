@@ -1,0 +1,28 @@
+{
+  "name": "wanderlust",
+  "description": "Find the cheapest flight to anywhere!",
+  "main": "server.js",
+  "authors": [
+    "Kurt Graff"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "travel"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.3",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "4"
+  }
+}

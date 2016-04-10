@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wanderlust</title>
+      <!-- bower:js -->
+      <script src="lib/jquery/dist/jquery.js"></script>
+      <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+      <script src="lib/angular/angular.js"></script>
+      <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+      <!-- endbower -->
+      <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+      <link rel="stylesheet" href="css/flatly.css">
+  </head>
+  <body>
+      <div class="wrap">
+        <nav class="navbar navbar-default bg-faded">
+          <h1 class="navbar-brand" ui-sref="home">Wanderlust</h1>
+        </nav>
+
+        <div class="container">
+          <ui-view> </ui-view>
+        </div>
+      </div>
+      <footer class="navbar navbar-default" id="footer">
+        <div class="container">
+          <div class="row">
+          <div class="" style="margin-top:20px;">
+            <div class="col-md-3" style="">
+
+            </div>
+            <div class="col-md-9 " style="color:white;margin-top:65px;">
+              <p class="pull-right" id = "copyRight">Created by Kurt Graff.</p></td>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
